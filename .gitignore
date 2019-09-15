@@ -1,0 +1,9 @@
+Open the .gitignore file, copy the following lines into the bottom of it, and then save (this file is used to identify files that should not be uploaded to git by default).
+
+# Text backup files
+*.bak
+
+# Database
+#*.sqlite3
+
+#.coveragerc

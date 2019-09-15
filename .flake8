@@ -1,0 +1,47 @@
+[flake8]
+ignore =
+      # Line too long
+      E501,
+      # Continuation line over-indented for visual indent
+      E127,
+      # Continuation line under-indented for visual indent
+      E128,
+      # Tab before operator
+      E231,
+      # Continuation line under-indented for hanging indent
+      E121,
+      # Continuation line missing indentation or outdented
+      E122,
+      # Closing bracket does not match indentation of opening bracket's line
+      E123,
+      # Continuation line with same indent as next logical line
+      E125,
+      # Missing whitespace around operator
+      E225,
+      # Too many blank lines
+      E303,
+      # Continuation line over-indented for hanging indent
+      E126,
+      # Expected 2 blank lines, found 1
+      E302,
+      # Whitespace after '('
+      E201,
+      # Whitespace before '('
+      E202,
+      # Missing whitespace around arithmetic operator
+      E226,
+      # At least two spaces before inline comment
+      E261,
+      # Inline comment should start with '# '
+      E262,
+      # Do not use bare except
+      E722,
+      # do not assign a lambda expression, use a def
+      E731
+      # Line break occurred after a binary operator
+      W504
+      # 'async' and 'await' are reserved keywords starting with Python 3.7
+      W606
+      # use ==/!= to compare str , bytes , and int literals
+      F632
+exclude = .git,__pycache__,vendor,scripts,tests,*test.py,*tests.py,migrations,protos,pb
